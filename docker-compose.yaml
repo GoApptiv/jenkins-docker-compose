@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.9'
 
 networks:
   jenkins-network:
@@ -29,7 +29,7 @@ services:
 
   jenkins:
     container_name: jenkins-blueocean
-    image: myjenkins-blueocean:2.387.1-1
+    image: jenkins-oceanblue-2.387.1-1
     restart: unless-stopped
     networks:
       - jenkins-network
