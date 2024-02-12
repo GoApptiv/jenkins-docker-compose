@@ -11,7 +11,7 @@ docker network create jenkins
 2. Build the official image
 
 ```bash
-docker build -t jenkins-oceanblue-2.387.1-1 .
+docker build -t jenkins-oceanblue-2.426.3 .
 ```
 
 3. Start the docker container using the docker compose file
